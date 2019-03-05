@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         var b = Int(text2.text!)
         
         
-        outputText.text = "\(a+b)"
+        outputText.text = "\((a!+b!))"
         
     }
     

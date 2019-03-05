@@ -29,16 +29,36 @@ class ViewController: UIViewController {
     
     @IBAction func btnSub(_ sender: UIButton) {
         
+        var a = Int(text1.text!)
+        var b = Int(text2.text!)
         
         
+        outputText.text = "\((a!-b!))"
     }
     
     
     @IBAction func btnMul(_ sender: UIButton) {
+        
+        var a = Int(text1.text!)
+        var b = Int(text2.text!)
+        
+        
+        outputText.text = "\((a!*b!))"
+        
+        
     }
     
     
     @IBAction func btnDiv(_ sender: UIButton) {
+        
+        var a = Int(text1.text!)
+        var b = Int(text2.text!)
+        
+        
+        outputText.text = "\((a!/b!))"
+        
+        
+        
     }
     
     
